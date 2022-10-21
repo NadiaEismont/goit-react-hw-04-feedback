@@ -9,8 +9,6 @@ export const TitleName = styled.p`
   color: #000000;
   color: transparent;
   background: #666666;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
   background-clip: text;
   text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 `;
