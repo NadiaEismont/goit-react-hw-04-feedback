@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Notification from './Notification/Notification';
 import Section from './Section/Section';
@@ -23,7 +23,7 @@ export class App extends Component {
   };
   render() {
     const { good, neutral, bad } = this.state;
-    const onTotal = bad + good + neutral;
+
     return (
       <>
         <Section title="Please leave feedback">
